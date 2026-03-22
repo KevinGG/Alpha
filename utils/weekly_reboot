@@ -1,0 +1,6 @@
+#!/bin/zsh
+#crontab -e
+#0 4 * * 0 /home/ningk/workspace/Alpha/utils/weekly_reboot &>/dev/null
+#sudo EDITOR=vim visudo
+#ningk   ALL=(ALL) NOPASSWD: /sbin/reboot, /usr/sbin/reboot
+sudo /usr/sbin/reboot
